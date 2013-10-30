@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BasicClientServerLib.Message.BasicHeader" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAAAAAEAABAAAQgQBAIAAAAAAAAAAEAAAE=</HashCode>
+      <FileName>Message\BasicHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicClientServerLib.Message.BasicMessage" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message\BasicMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicClientServerLib.Server.BasicSocketServer" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Server\BasicSocketServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicClientServerLib.SocketHandler.BasicSocketClientHandler" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SocketHandler\BasicSocketClientHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicClientServerLib.Client.BasicSocketClient" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Client\BasicSocketClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketServerLib.Message.AbstractMessageHeader" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SocketServerLib.Message.AbstractMessage" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SocketServerLib.Server.AbstractSocketServer" Collapsed="true">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SocketServerLib.Threads.AbstractThread" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SocketServerLib.Client.AbstractSocketClient" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SocketServerLib.SocketHandler.AbstractTcpSocketClientHandler" Collapsed="true">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Delegate Name="SocketServerLib.SocketHandler.ReceiveMessageDelegate" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="SocketServerLib.SocketHandler.SocketConnectionDelegate" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
