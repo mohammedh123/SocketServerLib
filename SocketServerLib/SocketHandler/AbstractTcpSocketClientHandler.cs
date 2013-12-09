@@ -579,18 +579,19 @@ namespace SocketServerLib.SocketHandler
         /// </summary>
         public virtual void Close()
         {
-            if (this.receiveQueue != null)
-            {
+            if (this.receiveQueue != null) {
                 this.flagShutdown = true;
                 this.cancellationToken.Cancel();
                 this.dequeuerThread.Join();
             }
-            if (this.socket != null && this.socket.Connected)
-            {
+            if (this.socket != null && this.socket.Connected) {
                 this.socket.Close();
+                if (!flagShutdown) {
                 this.OnCloseConnection(this);
+                }
             }
         }
+    
 
         #region IDisposable Members
 
